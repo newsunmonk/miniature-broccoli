@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins:ital,wght@0,400;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./cbr650r.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px gray;
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.countdown-container {
+  color: white;
+  text-shadow: 2px 2px gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  color: white;
+  text-shadow: 2px 2px gray;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el {
+  font-size: 1.3rem;
+}
